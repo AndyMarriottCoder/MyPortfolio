@@ -12,7 +12,7 @@ export default function Intro({}: Props) {
     onLoopDone: () => console.log('loop completed after 5 runs.')
   });
   return (
-    <div className="h-screen flex flex-col items-center justify-center text-center overflow-hidden">
+    <div className="bg-black text-white h-screen flex flex-col items-center justify-center text-center overflow-hidden">
     {/* >BackgroundCircles /> */}
     {/* <img className="relative rounded-full h-40 mx-auto pb-4" src={myImage.src} /> */}
     <div className="z-10">
