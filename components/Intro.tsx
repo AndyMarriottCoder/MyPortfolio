@@ -21,7 +21,7 @@ export default function Intro({}: Props) {
     Software Development Engineer II
     </h2>
     <h1 className="lg:text-6xl px-10">
-      <span>{text}</span>
+      <span className="inline-block">{text}</span>
     </h1>
 
     <div className="pt-10">
