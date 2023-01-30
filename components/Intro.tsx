@@ -7,7 +7,7 @@ type Props = {}
 
 export default function Intro({}: Props) {
   const [text] = useTypewriter({
-    words: ['Welcome'],
+    words: ['Welcome To My Portfolio', 'I\'m Andy Marriott'],
     loop: 3,
     delaySpeed: 1000,
     onLoopDone: () => console.log('loop completed after 5 runs.')
@@ -15,9 +15,9 @@ export default function Intro({}: Props) {
   return (
     <div className="bg-black text-white h-screen flex flex-col items-center justify-center text-center overflow-hidden">
     {/* >BackgroundCircles /> */}
-    <img className="relative rounded-full h-40 mx-auto pb-4" src={myImage.src} />
+    <img className="relative rounded-full h-40 w-50 mx-auto pb-4" src={myImage.src} />
     <div className="z-10">
-    <h2 className="text-lg uppercase text-gray-500 pb-6 tracking-[15px]">
+    <h2 className="text-lg uppercase text-gray-500 pb-6 pt-6 tracking-[15px]">
     Software Development Engineer II
     </h2>
     <h1 className="lg:text-6xl px-10">
