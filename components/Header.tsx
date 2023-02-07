@@ -1,10 +1,14 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 
-
 type Props = {}
 
-export default function Header({}: Props) {
+function mailto(){
+  window.location.href = "mailto:andymcoder@outlook.com"
+}
+
+
+function Header({}: Props) {
   return (
   <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto'>
     <div className='flex flex-row items-center'>
@@ -31,9 +35,12 @@ export default function Header({}: Props) {
         network="email"
         fgColor="Gray"
         bgColor="transparent"
+        onClick={mailto}
     />
     <p className="text-sm inline-flex">Drop me an email!</p>
     </div>
   </header>
   )
 }
+
+export default Header
