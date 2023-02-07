@@ -5,13 +5,17 @@ import myImage from '../images/PhotoOfMe.png';
 
 type Props = {}
 
+// Function displaying the TypeWriter functions
 export default function Intro({}: Props) {
   const [text] = useTypewriter({
     words: ['Welcome To My Portfolio', 'I\'m Andy Marriott'],
-    loop: 3,
+    loop: 5,
+    typeSpeed: 100,
     delaySpeed: 1000,
     onLoopDone: () => console.log('loop completed after 5 runs.')
   });
+
+  // Styling of the font and the buttons
   return (
     <div className="bg-black text-white h-screen flex flex-col items-center justify-center text-center overflow-hidden">
     {/* >BackgroundCircles /> */}
