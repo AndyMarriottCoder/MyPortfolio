@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/Header'
+import Header from '../components/layout/Header'
 import Intro from '../components/Intro'
 import About from './about'
 import Blog from './blog'
@@ -8,7 +8,7 @@ import Contact from './contactMe'
 
 export default function Home() {
   return (
-    <div className="bg-black text-white h-screen snap-y snap-mandatory overflow=scroll z=0">
+    <div className="bg-[#0e7490] text-white h-screen snap-y snap-mandatory overflow=scroll z=0">
       <Head>
         <title>Andy Marriott - Software Engineer</title>
       </Head>

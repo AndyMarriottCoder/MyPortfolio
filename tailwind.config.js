@@ -7,7 +7,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        sidebar: "300px auto",
+    },
+    gridTemplateRows: {
+      header: "64px auto",
   },
   plugins: [],
-}
+}}}
