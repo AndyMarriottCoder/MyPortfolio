@@ -17,7 +17,7 @@ export default function Intro({}: Props) {
 
   // Styling of the font and the buttons
   return (
-    <div className="bg-slate-800 text-white h-screen flex flex-col items-center justify-center text-center overflow-hidden">
+    <div className="bg-black text-white h-screen flex flex-col items-center justify-center text-center overflow-hidden">
     {/* >BackgroundCircles /> */}
     <img className="relative rounded-full h-40 w-50 mx-auto pb-4" src={myImage.src} />
     <div className="z-10">

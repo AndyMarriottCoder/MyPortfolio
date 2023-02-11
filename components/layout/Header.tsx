@@ -13,7 +13,7 @@ function Header({}: Props) {
   return (
   <header 
     className={classNames({
-      "sticky top-0 flex items-start": true, //Layout 
+      "fixed top-0 flex items-start": true, //Layout 
       "justify-between max-w7xl mx-auto": true, //Positioning
     })}
     >
@@ -35,9 +35,9 @@ function Header({}: Props) {
       />
 
     {/* Commented out the divs below so that all of of the icons are bunched together */}
-    {/* </div> */}
+    </div>
 
-    {/* <div className='flex flex-row items-center text-gray-500'> */}
+    <div className='flex flex-row items-center text-gray-500'>
       <SocialIcon
         className="cursor-pointer"
         network="email"
