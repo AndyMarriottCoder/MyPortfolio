@@ -20,30 +20,32 @@ function Header({}: Props) {
     <div className='flex flex-row items-center'>
       <SocialIcon
         url="https://www.linkedin.com/in/andrewjamesmarriott"
-        fgColor="Gray"
+        fgColor="White"
         bgColor="transparent"
       />
       <SocialIcon
         url="https://www.twitter.com/AndyMCoder"
-        fgColor="Gray"
+        fgColor="White"
         bgColor="transparent"
       />
       <SocialIcon
         url="https://github.com/AndyMarriottCoder"
-        fgColor="Gray"
+        fgColor="White"
         bgColor="transparent"
       />
-    </div>
 
-    <div className='flex flex-row items-center text-gray-500'>
+    {/* Commented out the divs below so that all of of the icons are bunched together */}
+    {/* </div> */}
+
+    {/* <div className='flex flex-row items-center text-gray-500'> */}
       <SocialIcon
         className="cursor-pointer"
         network="email"
-        fgColor="Gray"
+        fgColor="White"
         bgColor="transparent"
         onClick={mailto}
     />
-    <p className="text-sm inline-flex">Drop me an email!</p>
+    <p className="text-sm inline-flex text-white">Drop me an email!</p>
     </div>
   </header>
   )

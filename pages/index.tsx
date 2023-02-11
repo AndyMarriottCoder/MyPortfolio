@@ -8,12 +8,13 @@ import Contact from './contactMe'
 
 export default function Home() {
   return (
-    <div className="bg-[#0e7490] text-white h-screen snap-y snap-mandatory overflow=scroll z=0">
+    <div className="text-white h-screen snap-y snap-mandatory overflow=scroll z=0">
       <Head>
         <title>Andy Marriott - Software Engineer</title>
       </Head>
 
-      <Header />
+      {/* Commented Header out as it's now in it's own component */}
+      {/* <Header /> */}
 
       <section id="intro" className="snap-start">
       <Intro />
