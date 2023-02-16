@@ -2,7 +2,8 @@ import React from 'react'
 
 type Props = {}
 
-export default function about({}: Props) {
+const About = () => {
+// export default function about({}: Props) {
   return (
     <div className="bg-black h screen flex flex-col justify-center overflow-hidden">
     <h3 className="text-lg uppercase text-gray-500 pb-6 tracking-[15px] text-center">About</h3>
@@ -15,3 +16,5 @@ export default function about({}: Props) {
     </div>
   )
 }
+
+export default About

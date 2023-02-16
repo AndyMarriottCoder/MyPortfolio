@@ -1,26 +1,15 @@
-import React, { PropsWithChildren } from "react";
-import Header from "./Header";
-import Sidebar from "../sidebar";
-import Intro from "../Intro";
+import React from 'react'
+import Sidebar from '../sidebar'
 
 const Layout = () => {
   return (
-    <div className="grid min-h-screen grid-rows-header">
-      <header className="items-start bg-black">
-        <Header />
-      </header>
-        
-      <div className="h-screen flex flex-row justify-start">
-        <Sidebar />
+    <div className="h-screen flex flex-row justify-start">
+      <Sidebar />
+      <div className="bg-red-800 flex-1 p-4 text-black">
+        Andy Marriott - Software Engineer
       </div>
-
-      <div className="items-start">
-        <Intro />
-      </div> 
-
-        
     </div>
-    
-  );
-};
+  )
+}
+
 export default Layout;
