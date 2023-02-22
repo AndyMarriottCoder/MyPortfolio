@@ -1,6 +1,5 @@
 import React, { PropsWithChildren } from "react";
 import Header from "./Header";
-import Sidebar from "../sidebar";
 import Intro from "../Intro";
 
 const Layout = () => {
@@ -9,10 +8,6 @@ const Layout = () => {
       <header className="items-start bg-black">
         <Header />
       </header>
-        
-      <div className="h-screen flex flex-row justify-start">
-        <Sidebar />
-      </div>
 
       <div className="items-start">
         <Intro />

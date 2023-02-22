@@ -5,7 +5,6 @@ import About from './about'
 import Blog from './blog'
 import Projects from './projects'
 import Contact from './contactMe'
-import Sidebar from '@/components/sidebar'
 
 export default function Home() {
   return (
@@ -13,11 +12,6 @@ export default function Home() {
       <Head>
         <title>Andy Marriott - Software Engineer</title>
       </Head>
-      
-      <section id="sidebar" className="text">
-        <Sidebar />
-        Test Text
-      </section>
     
       {/* Commented Header out as it's now in it's own component */}
       {/* <Header /> */}
