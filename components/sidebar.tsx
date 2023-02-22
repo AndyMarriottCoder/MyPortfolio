@@ -46,7 +46,7 @@ const Sidebar = () => {
           <div className="flex items-center pl-1 gap-4">
             {/* <About />  */}
             <span className={classNames('mt-2 text-lg font-medium text-gray-50', { hidden: toggleCollapse})}>
-              Welcome
+              SDE II
             </span>
             </div>
             {/* {isCollapsible && ( */}
