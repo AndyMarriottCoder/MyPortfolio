@@ -7,8 +7,7 @@ function CollapseIcon(){
     <Image
       src={ToggleIcon}
       alt="Icon used to collapse the sidebar"
-      width="16px"
-      height="15px"
+      width={50}
     />
   )
 }
