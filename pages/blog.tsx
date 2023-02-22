@@ -1,5 +1,5 @@
 import React from 'react'
-import apple from '../images/applelogo.png'
+// import apple from '../images/applelogo.png'
 
 export default function Blog() {
   return (
@@ -18,11 +18,11 @@ export default function Blog() {
             className="w-full block shadow-2xl"
           >
             <div className="relative overflow-hidden">
-              <img
+              {/* <img
                 src={apple.src}
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
+              /> */}
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Tailwind Master Kit
               </h1>
