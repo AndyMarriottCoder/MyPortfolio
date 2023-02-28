@@ -1,5 +1,4 @@
 import React, { PropsWithChildren } from "react";
-import Header from "./Header";
 import Intro from "../Intro";
 import Header2 from "@/pages/Header2"
 import Head from 'next/head'
@@ -7,8 +6,9 @@ import Head from 'next/head'
 const Layout = (props: PropsWithChildren) => {
   return (
       <div className="grid min-h-screen grid-rows-header">
-        <Head>
+      <Head>
         <title>Andy Marriott - SDEII</title>
+        <meta property="og:title" content="Andy Marriott - SDEII" key="title" />
       </Head>
       <header className="items-start bg-black">
         <Header2 />
