@@ -14,4 +14,4 @@ export default function about({}: Props) {
     </p>
     </div>
   )
-}
+};
