@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import { useTypewriter } from 'react-simple-typewriter';
-import profilePic from '../images/PhotoOfMe.png';
+import profilePic from '../images/photoofme.png';
 import Image from 'next/image';
 
 type Props = {}
