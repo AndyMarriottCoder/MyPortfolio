@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePhoto from '@/images/photoofme.png'
+import profilePhoto from 'public/static/images/photoofme.png'
 import React from "react";
 
 function myPhoto(){
