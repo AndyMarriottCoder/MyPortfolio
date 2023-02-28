@@ -4,12 +4,13 @@ import React from "react";
 
 function myPhoto(){
   return(
-    <Image
+    <Image className="rounded-full pb-4"
       src={profilePhoto}
-      alt="Icon used to collapse the sidebar"
-      width={50}
+      alt="Profile Photo"
+      width={600}
+      height={600}
     />
   )
 }
 
-export default CollapseIcon;
+export default myPhoto;
