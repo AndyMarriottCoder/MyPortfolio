@@ -1,41 +1,51 @@
+import React, { PropsWithChildren } from "react";
+import Intro from "../components/Intro";
+import Header2 from "@/components/Header2"
 import Head from 'next/head'
-import Header from '../components/layout/Header'
-import Intro from '../components/Intro'
 import About from './about'
 import Blog from './blog'
 import Projects from './projects'
 import Contact from './contactMe'
 
-export default function Home() {
+const Layout = (props: PropsWithChildren) => {
   return (
-    <div className="text-white h-screen snap-y snap-mandatory overflow=scroll z=0">
+      <div className="grid min-h-screen grid-rows-header">
       <Head>
-        <title>Andy Marriott - Software Engineer</title>
-      </Head>
-    
-      {/* Commented Header out as it's now in it's own component */}
-      {/* <Header /> */}
+        <title>Andy Marriott - SDEII</title>
+        <meta property="og:title" content="Andy Marriott - SDEII" key="title" />
+        </Head>
 
-      <section id="intro" className="snap-start">
+      <header className="items-start bg-black">
+        <Header2 />
+      </header>
+
+      <div className="items-start">
         <Intro />
-      </section>
+      </div>
 
-      <section id="about" className="snap-start">
+      <section id="about">
         <About />
-      </section>
+      </section> 
 
-      <section id="blog" className="snap-start">
+      <section id="blog">
         <Blog />
-      </section>
+      </section> 
 
-      <section id="projects" className="snap-start">
+      <section id="projects">
         <Projects />
-      </section>
+      </section> 
 
-      <section id="contact" className="snap-start">
+      <section id="contactMe">
         <Contact />
-      </section>
+      </section> 
 
+
+
+      
+
+        
     </div>
-  )
-}
+    
+  );
+};
+export default Layout;
