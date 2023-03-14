@@ -23,7 +23,7 @@ const Layout = (props: PropsWithChildren) => {
         <Intro />
       </div>
 
-      <section id="about">
+      <section id="about" className="snap-center">
         <About />
       </section> 
 
