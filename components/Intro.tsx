@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import { useTypewriter } from 'react-simple-typewriter';
-import Image from '../images/myPhoto'
+// import Image from '../images/myPhoto'
 
 type Props = {}
 
@@ -19,7 +19,7 @@ export default function Intro({}: Props) {
   return (
     <div className="bg-black text-yellow-300 h-screen flex flex-col items-center justify-center text-center overflow-hidden">
     {/* <div className="rounded-full pb-4"> */}
-      <Image />
+      {/* <Image /> */}
     {/* </div> */}
     {/* <Image className="rounded-full pb-4" src={profilePic} alt="Profile Picture" width={600} height={600}/> */}
     <h2 className="animate-bounce text-lg uppercase text-yellow-300 pb-6 pt-6 tracking-[15px]">
