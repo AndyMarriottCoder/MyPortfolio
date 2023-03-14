@@ -5,5 +5,4 @@ const nextConfig = {
 
 
 
-// module.exports = nextConfig
-module.exports = { experimental: { css: true } }
+module.exports = nextConfig
