@@ -6,6 +6,7 @@ import About from './about'
 import Blog from './blog'
 import Projects from './projects'
 import Contact from './contactMe'
+import Blog2 from "./blog2";
 
 const Layout = (props: PropsWithChildren) => {
   return (
@@ -28,7 +29,7 @@ const Layout = (props: PropsWithChildren) => {
       </section> 
 
       <section id="blog">
-        <Blog />
+        <Blog2 />
       </section> 
 
       <section id="projects">
